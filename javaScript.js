@@ -17,49 +17,84 @@ const keyH = document.getElementById("keyH");
 const keyJ = document.getElementById("keyJ");
 const keyK = document.getElementById("keyK");
 
-// document.addEventListener("keydown", function (event) {
-//     if(event.keyCode === 65){
-//         console.log(event.keyCode);
-//         ring1.play();
-//     } else if (event.keyCode === 83){
-//         console.log(event.keyCode);
-//         ring2.play();
-//     }
-
-
-
+window.addEventListener("keypress", function (event) {
     switch (event.keyCode) {
         case 65:
             console.log(event.keyCode);
+            ring1.currentTime = 0;
             ring1.play();
+            console.log(keyA);
+            keyA.style.backgroundColor="#C4FFE1";
             break;
         case 83:
             console.log(event.keyCode);
+            ring2.currentTime = 0;
             ring2.play();
+            keyS.style.backgroundColor="#C4FFE1";
             break;
         case 68:
             console.log(event.keyCode);
+            ring3.currentTime = 0;
             ring3.play();
+            keyD.style.backgroundColor="#C4FFE1";
             break;
         case 70:
             console.log(event.keyCode);
+            ring4.currentTime = 0;
             ring4.play();
+            keyF.style.backgroundColor="#C4FFE1";
             break;
         case 71:
             console.log(event.keyCode);
+            ring5.currentTime = 0;
             ring5.play();
+            keyG.style.backgroundColor="#C4FFE1";
             break;
         case 72:
             console.log(event.keyCode);
+            ring6.currentTime = 0;
             ring6.play();
+            keyH.style.backgroundColor="#C4FFE1";
             break;
         case 74:
             console.log(event.keyCode);
+            ring7.currentTime = 0;
             ring7.play();
+            keyJ.style.backgroundColor="#C4FFE1";
             break;
         case 75:
             console.log(event.keyCode);
+            ring8.currentTime = 0;
             ring8.play();
+            keyK.style.backgroundColor="#C4FFE1";
+            break;
+    }
+});
+window.addEventListener("keyup", function (event) {
+    switch (event.keyCode) {
+        case 65:
+            keyA.style.backgroundColor="white";
+            break;
+        case 83:
+            keyS.style.backgroundColor="white";
+            break;
+        case 68:
+            keyD.style.backgroundColor="white";
+            break;
+        case 70:
+            keyF.style.backgroundColor="white";
+            break;
+        case 71:
+            keyG.style.backgroundColor="white";
+            break;
+        case 72:
+            keyH.style.backgroundColor="white";
+            break;
+        case 74:
+            keyJ.style.backgroundColor="white";
+            break;
+        case 75:
+            keyK.style.backgroundColor="white";
             break;
     }
 });
