@@ -17,53 +17,52 @@ const keyH = document.getElementById("keyH");
 const keyJ = document.getElementById("keyJ");
 const keyK = document.getElementById("keyK");
 
-window.addEventListener("keypress", function (event) {
+window.addEventListener("keydown", function (event) {
     switch (event.keyCode) {
         case 65:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring1.currentTime = 0;
             ring1.play();
-            console.log(keyA);
             keyA.style.backgroundColor="#C4FFE1";
             break;
         case 83:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring2.currentTime = 0;
             ring2.play();
             keyS.style.backgroundColor="#C4FFE1";
             break;
         case 68:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring3.currentTime = 0;
             ring3.play();
             keyD.style.backgroundColor="#C4FFE1";
             break;
         case 70:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring4.currentTime = 0;
             ring4.play();
             keyF.style.backgroundColor="#C4FFE1";
             break;
         case 71:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring5.currentTime = 0;
             ring5.play();
             keyG.style.backgroundColor="#C4FFE1";
             break;
         case 72:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring6.currentTime = 0;
             ring6.play();
             keyH.style.backgroundColor="#C4FFE1";
             break;
         case 74:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring7.currentTime = 0;
             ring7.play();
             keyJ.style.backgroundColor="#C4FFE1";
             break;
         case 75:
-            console.log(event.keyCode);
+            if (event.repeat) {break};
             ring8.currentTime = 0;
             ring8.play();
             keyK.style.backgroundColor="#C4FFE1";
