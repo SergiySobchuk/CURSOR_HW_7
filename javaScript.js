@@ -97,3 +97,75 @@ window.addEventListener("keyup", function (event) {
             break;
     }
 });
+
+keyA.addEventListener("mousedown", function (event) {
+    ring1.currentTime = 0;
+    ring1.play();
+    keyA.style.backgroundColor="#C4FFE1";
+});
+keyA.addEventListener("mouseup", function (event) {
+    keyA.style.backgroundColor="white";
+});
+//*********************
+keyS.addEventListener("mousedown", function (event) {
+    ring2.currentTime = 0;
+    ring2.play();
+    keyS.style.backgroundColor="#C4FFE1";
+});
+keyS.addEventListener("mouseup", function (event) {
+    keyS.style.backgroundColor="white";
+});
+//*********************
+keyD.addEventListener("mousedown", function (event) {
+    ring3.currentTime = 0;
+    ring3.play();
+    keyD.style.backgroundColor="#C4FFE1";
+});
+keyD.addEventListener("mouseup", function (event) {
+    keyD.style.backgroundColor="white";
+});
+//*********************
+keyF.addEventListener("mousedown", function (event) {
+    ring4.currentTime = 0;
+    ring4.play();
+    keyF.style.backgroundColor="#C4FFE1";
+});
+keyF.addEventListener("mouseup", function (event) {
+    keyF.style.backgroundColor="white";
+});
+//*********************
+keyG.addEventListener("mousedown", function (event) {
+    ring5.currentTime = 0;
+    ring5.play();
+    keyG.style.backgroundColor="#C4FFE1";
+});
+keyG.addEventListener("mouseup", function (event) {
+    keyG.style.backgroundColor="white";
+});
+//*********************
+keyH.addEventListener("mousedown", function (event) {
+    ring6.currentTime = 0;
+    ring6.play();
+    keyH.style.backgroundColor="#C4FFE1";
+});
+keyH.addEventListener("mouseup", function (event) {
+    keyH.style.backgroundColor="white";
+});
+//*********************
+keyJ.addEventListener("mousedown", function (event) {
+    ring7.currentTime = 0;
+    ring7.play();
+    keyJ.style.backgroundColor="#C4FFE1";
+});
+keyJ.addEventListener("mouseup", function (event) {
+    keyJ.style.backgroundColor="white";
+});
+//*********************
+keyK.addEventListener("mousedown", function (event) {
+    ring8.currentTime = 0;
+    ring8.play();
+    keyK.style.backgroundColor="#C4FFE1";
+});
+keyK.addEventListener("mouseup", function (event) {
+    keyK.style.backgroundColor="white";
+});
